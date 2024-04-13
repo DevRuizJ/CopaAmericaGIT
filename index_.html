@@ -1,28 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copa América 2024</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
     <header>
-        <h1>Copa América 2024</h1>
-        <div class="logo">
-            <img src="image/logo_copa.png" alt="logo">
-        </div>
-        <nav>
-            <ul>
-                <li>Inicio</li>
-                <li>Calendario</li>
-                <li>Estadios</li>
-                <li>Noticias</li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="logo">
+                <img src="image/logo_copa.png">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <h1 class="titulo">Copa América 2024</h1>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Calendario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Estadios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Noticias</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
+    <div>
+        <div class="subtitulo">
+            <h2><p>Equipos Participantes</p></h2>
+        </div>
+        <div class="principal">
+            <table class="table table-hover table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>País</th>
+                        <th>Bandera</th>
+                        <th>Capitán</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Argentina</td>
+                        <td>
+                            <img class="bandera" src="image/argentina.jpg" alt="argentina">
+                        </td>
+                        <td>
+                            <p>Lionel Messi</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Brasil</td>
+                        <td class="bandera">
+                            <img class="bandera" src="image/brasil.jpg" alt="brasil">
+                        </td>
+                        <td>
+                            <p>Neymar Jr.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </body>
 <footer>
     <p>&copy; 2024 Copa América. Todos los derechos reservados. UESAN</p>
 </footer>
+
 </html>

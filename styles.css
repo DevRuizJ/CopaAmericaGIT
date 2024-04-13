@@ -36,11 +36,6 @@ header{
     padding: 25px;
 }
 
-.subtitulo{
-    padding-top: 50px;
-    padding-left: 25px;
-}
-
 tr{
     text-align: center;
     font-size: 1.5rem;
@@ -51,5 +46,9 @@ tr{
 }
 
 .seccion{
+    padding: 25px;
+}
+
+h2{
     padding: 25px;
 }

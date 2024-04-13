@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f0f8ff;
 }
 
@@ -10,4 +10,37 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+
+.logo {
+    order: -1;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+}
+
+.titulo{
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+.bandera{
+    width: 300px;
+    height: 175px;
+}
+
+.principal{
+    padding: 25px;
+}
+
+.subtitulo{
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+tr{
+    text-align: center;
 }
